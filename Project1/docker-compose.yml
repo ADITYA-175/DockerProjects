@@ -1,0 +1,20 @@
+
+services:
+
+  C1:
+    container_name: "myos3"
+    image:  "ubuntu:14.04"
+    command: "/bin/bash"
+    tty: "true"
+
+
+  C2:
+    container_name: "myos10"
+    image:  "ubuntu:14.04"
+    command: "/bin/bash"
+    tty: "true"
+
+
+
+
+
