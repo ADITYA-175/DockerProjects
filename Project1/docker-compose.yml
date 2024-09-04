@@ -1,9 +1,9 @@
 
 services:
 
-  C1:
-    container_name: "myos3"
-    image:  "ubuntu:14.04"
+  wp:
+    container_name: "wpress"
+    image:  "wordpress:latest"
     command: "/bin/bash"
     tty: "true"
 
